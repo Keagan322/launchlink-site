@@ -1,0 +1,4 @@
+// Add a simple animation to the CTA button
+document.querySelector('.cta').addEventListener('click', () => {
+    alert('Your thoughts are now on the blockchain! (Just kidding!)');
+});
