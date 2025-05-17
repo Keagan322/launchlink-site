@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(180deg, #0A0015, #2A0045);
+    color: #fff;
+    min-height: 100vh;
+}
+
+header {
+    text-align: center;
+    padding: 50px 20px;
+    background: url('https://source.unsplash.com/random/1600x900/?futuristic') no-repeat center/cover;
+}
+
+h1 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 48px;
+    color: #A100FF;
+    text-shadow: 0 0 10px #A100FF;
+}
+
+header p {
+    font-size: 24px;
+    margin: 20px 0;
+    color: #00D1FF;
+}
+
+.cta {
+    display: inline-block;
+    padding: 15px 30px;
+    background: #FF007A;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: transform 0.3s;
+}
+
+.cta:hover {
+    transform: scale(1.1);
+}
+
+section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 36px;
+    color: #A100FF;
+    margin-bottom: 20px;
+}
+
+p, ul {
+    font-size: 18px;
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+ul {
+    list-style: none;
+    text-align: left;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #0A0015;
+}
+
+footer a {
+    color: #00D1FF;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+    h1 { font-size: 36px; }
+    h2 { font-size: 28px; }
+    header p { font-size: 18px; }
+}
